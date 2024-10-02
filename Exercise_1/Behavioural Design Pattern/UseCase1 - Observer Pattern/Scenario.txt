@@ -1,6 +1,0 @@
-UseCase : Task Notification System
-
-Scenario:
-
-The Observer pattern is used to notify multiple objects when the state of an object changes. 
-Here's a Java example where multiple users (observers) get notified when a new task is added to the task manager (subject).
