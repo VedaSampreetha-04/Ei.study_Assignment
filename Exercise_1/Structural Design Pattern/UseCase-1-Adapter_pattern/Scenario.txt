@@ -1,0 +1,5 @@
+Use Case: Audio Player with Different Formats
+
+Scenario:
+Adapter pattern allows incompatible interfaces to work together.
+Here’s an example of adapting an advanced media player to work with a simple audio player interface.
