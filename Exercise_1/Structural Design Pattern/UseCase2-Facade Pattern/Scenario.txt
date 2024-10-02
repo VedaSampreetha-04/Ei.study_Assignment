@@ -1,0 +1,4 @@
+Use Case: Home Automation System
+
+Scenario:
+The Facade pattern simplifies interactions with a complex system by providing a unified interface.
