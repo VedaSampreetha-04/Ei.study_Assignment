@@ -53,6 +53,50 @@ The Facade pattern is used to create a simple interface for controlling a home a
 
 Ensure that you have Java 8 (or higher) installed on your machine. You can check this by running:
 
+---
 
+# Exercise - 2
+# Mars Rover Simulation
+
+This project is a simulation of a Mars Rover navigating a grid-based terrain. The Rover can execute commands to move forward, turn left, or turn right, and this behavior is modeled using object-oriented programming principles and design patterns.
+
+## Features
+
+- **Rover Navigation**: The Rover can move forward, turn left, or turn right on a grid.
+- **Command Execution**: The Rover's movement is controlled through command patterns, encapsulating each action as a command.
+- **Grid System**: The Rover operates within a grid-based terrain, ensuring that all movement adheres to the grid boundaries.
+  
+## Design Patterns Utilized
+
+1. **Command Pattern**:
+   - The Command pattern is used to encapsulate each movement action (move, turn left, turn right) as an object, allowing for flexibility in how the commands are executed.
+   - Each command is represented by a specific class (`MoveCommand`, `TurnLeftCommand`, `TurnRightCommand`) that implements the `Command` interface.
+
+2. **Encapsulation**:
+   - Each object (Rover, Grid) encapsulates its own properties and methods, ensuring modularity and easier management of the simulation.
+
+## Classes Overview
+
+- **Main.java**: The entry point of the application where the Rover's initial state is set, and commands are issued.
+- **Rover.java**: Represents the Rover with attributes such as position and direction. It processes commands and updates its state.
+- **Grid.java**: Represents the grid-based terrain where the Rover operates, defining the boundaries within which the Rover can move.
+- **Command.java**: An interface representing the command pattern. All movement commands implement this interface.
+- **MoveCommand.java**: Implements the command to move the Rover one step forward in the direction it is currently facing.
+- **TurnLeftCommand.java**: Implements the command to turn the Rover left.
+- **TurnRightCommand.java**: Implements the command to turn the Rover right.
+
+## Running the Project
+
+### Prerequisites
+- Ensure **Java 8** or a newer version is installed on your system.
+
+### Steps to Run
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/MarsRoverSimulation.git
+2. **Navigate to project directory**
+3. **Compile the java files**
+4. **Run the Application**
 
 
