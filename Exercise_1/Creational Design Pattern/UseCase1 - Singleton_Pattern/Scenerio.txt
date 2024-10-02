@@ -1,0 +1,4 @@
+Use Case: Configuration Manager
+
+Scenario:
+Singleton ensures that only one instance of a class exists in the system. Here, we use it for a configuration manager.
