@@ -96,7 +96,14 @@ This project is a simulation of a Mars Rover navigating a grid-based terrain. Th
    ```bash
    git clone https://github.com/your-username/MarsRoverSimulation.git
 2. **Navigate to project directory**
-3. **Compile the java files**
-4. **Run the Application**
+   ```bash
+   cd MarsRoverSimulation
+4. **Compile the java files**
+   ```bash
+   javac *.java
+6. **Run the Application**
+   ```bash
+   java Main
+
 
 
