@@ -90,11 +90,11 @@ This project is a simulation of a Mars Rover navigating a grid-based terrain. Th
 ### Prerequisites
 - Ensure **Java 8** or a newer version is installed on your system.
 
-### Steps to Run
+### Steps to Run both Exercise 1 and Exercise 2
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/MarsRoverSimulation.git
+   git clone https://github.com/VedaSampreetha-04/Ei.study_Assignment.git
 2. **Navigate to project directory**
    ```bash
    cd MarsRoverSimulation
