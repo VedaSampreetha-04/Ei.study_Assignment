@@ -1,0 +1,5 @@
+Use Case: Remote Control for Devices
+
+Scenario:
+The Command pattern allows you to encapsulate a request as an object.
+In this example, we'll create a simple remote control that can turn a device on or off.
