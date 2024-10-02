@@ -1,0 +1,5 @@
+Use Case: Task Creation System
+
+Scenario:
+Factory pattern provides a way to create objects without specifying the exact class.
+In this example, we'll create different types of tasks using a factory.
